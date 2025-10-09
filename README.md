@@ -29,7 +29,7 @@ A Blank Document opens up into which the following source code can be typed.
 #### a)	To verify the Functionality using the Test Bench
 
 ## Source Code – Using Case Statement :
-
+```
 module alu_32bit_case(y,a,b,f);
 input [31:0]a;
 input [31:0]b;
@@ -49,7 +49,7 @@ case(f)
 endcase
 end
 endmodule
-
+```
 Use the Save option or Ctrl+S to save the code, or click on the save option from the top-right corner and close the text file.
 
 ## Creating a Test Bench:
@@ -57,7 +57,7 @@ Use the Save option or Ctrl+S to save the code, or click on the save option from
 Similarly, create your test bench using gedit <filename_tb>.v to open a new blank document (alu_32bit_tb_case).
 
 ## Test Bench :
-
+```
 module alu_32bit_tb_case;
 reg [31:0]a;
 reg [31:0]b;
@@ -79,7 +79,7 @@ b=32'h10101010;
 #100 $finish;
 end
 endmodule
-
+```
 Use the Save option or Ctrl+S to save the code, or click on the save option from the top-right corner and close the text file.
 
 ## Functional Simulation:
